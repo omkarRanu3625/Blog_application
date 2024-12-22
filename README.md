@@ -23,10 +23,10 @@ The purpose of this project is to build a RESTful Blog API that allows users to 
 
 ## Features
 
-- User registration and login with JWT-based authentication.
-- Create, read, update, and delete (CRUD) blog posts.
+- User registration and login with **JWT-based authentication**.
+- **Create**, **read**, **update**, and **delete (CRUD)** blog posts.
 - Add comments to blog posts.
-- Role-based access control for managing posts and comments.
+- **Role-based access control** for managing posts and comments.
 - Error handling and input validation.
 - Protected routes requiring authentication for certain actions (e.g., creating or deleting posts).
 - Unit and integration testing.
@@ -49,25 +49,22 @@ The purpose of this project is to build a RESTful Blog API that allows users to 
 
 ### Authentication
 
-    **Method & Endpoint**             **Description**                 **Authentication**
-- [] `POST /api/auth/register`        Register a new user               Public
-- [] `POST /api/auth/login`           Login and get JWT                 Private
+- [ ] `POST /api/auth/register`        Register a new user               **Public**
+- [ ] `POST /api/auth/login`           Login and get JWT                 **Private**
 
 ### Blog Posts
 
-    **Method & Endpoint**             **Description**                 **Authentication**
-- [] `POST /api/posts`                Create a new blog post            Private
-- [] `GET /api/posts`                 Get all blog posts                Public
-- [] `GET /api/posts/:id`             Get single post by Id             Public
-- [] `PUT /api/posts/:id`             Update Post by Id                 Private
-- [] `DELETE Delete a blog post`      Delete Blog post                  Private
+- [ ] `POST /api/posts`                Create a new blog post            **Private**
+- [ ] `GET /api/posts`                 Get all blog posts                **Public**
+- [ ] `GET /api/posts/:id`             Get single post by Id             **Public**
+- [ ] `PUT /api/posts/:id`             Update Post by Id                 **Private**
+- [ ] `DELETE Delete a blog post`      Delete Blog post                  **Private**
 
 ### Comments
 
-    **Method & Endpoint**             **Description**                 **Authentication**
-- [] `POST /api/comments/:postId`     Add a comment to a blog post      Public
-- [] `GET /api/comments/:postId`      Get all comments on a post        Public
-- [] `DELETE /api/comments/:commentId`Delete Comment                    Private
+- [ ] `POST /api/comments/:postId`     Add a comment to a blog post      **Public**
+- [ ] `GET /api/comments/:postId`      Get all comments on a post        **Public**
+- [ ] `DELETE /api/comments/:commentId`Delete Comment                    **Private**
 
 ---
 
